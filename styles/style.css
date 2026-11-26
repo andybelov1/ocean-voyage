@@ -805,6 +805,7 @@ html {
   letter-spacing: 0%;
   color: var(--white);
   text-decoration: none;
+  font-family: var(--font-family);
 }
 
 .footer__contacts {
