@@ -10,7 +10,7 @@ html {
 
 @font-face {
   font-family: "Century Gothic";
-  src: url("/assets/fonts/Century\ Gothic\ Regular.ttf") format("truetype");
+  src: url("../assets/fonts/Century Gothic Regular.ttf") format("truetype");
   font-weight: 400;
 }
 
