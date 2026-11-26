@@ -713,6 +713,11 @@
     justify-self: end;
     margin-top: 30px;
   }
+
+  .footer a,
+.footer span {
+  font-size: 12px;
+}
 }
 
 @media screen and (max-width: 368px) {
