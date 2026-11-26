@@ -1,0 +1,910 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles/magnific-popup.css" />
+    <link rel="stylesheet" href="styles/animate.min.css" />
+    <link rel="stylesheet" href="styles/hover-min.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/adaptive.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__container">
+        <a href="#" class="header__logo">
+          <img
+            src="assets/images/LOGO.png"
+            alt="OCEAN VOYAGE"
+            class="header__logo-img"
+          />
+        </a>
+        <nav class="header__nav" id="nav">
+          <div class="close" id="close">
+            <figure></figure>
+            <figure></figure>
+          </div>
+          <ul class="nav__list">
+            <li><a href="#about">О круизе</a></li>
+            <li><a href="#gallery">Фотогалерея</a></li>
+            <li><a href="#reviews">Отзывы</a></li>
+            <li><a href="#contacts">Контакты</a></li>
+          </ul>
+          <ul class="nav__social">
+            <li>
+              <a href="#"
+                ><img src="assets/images/inst-header.svg" alt="Instagram"
+              /></a>
+            </li>
+            <li>
+              <a href="#"><img src="assets/images/fb-header.svg" alt="Facebook" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="assets/images/tg-header.svg" alt="Telegram" /></a>
+            </li>
+          </ul>
+        </nav>
+        <a href="#order" class="header__button hvr-sweep-to-left"
+          >Забронировать тур</a
+        >
+        <div class="burger">
+          <figure></figure>
+          <figure></figure>
+          <figure></figure>
+        </div>
+      </div>
+      <div class="overlay"></div>
+    </header>
+    <main>
+      <section class="main">
+        <div class="container">
+          <div class="main__content wow animate__backInLeft">
+            <h1 class="main__title">Круиз «В сердце Карибского Моря»</h1>
+            <p class="main__description">
+              Окунитесь в морскую атмосферу и откройте для себя потрясающие
+              пляжи и первоклассный сервис
+            </p>
+            <a class="main__button hvr-sweep-to-right" href="#order">
+              Забронировать тур
+            </a>
+          </div>
+        </div>
+        <img
+          src="assets/images/sea-texture-background 2.png"
+          alt="Main Sea"
+          class="main__sea wow animate__fadeInRight"
+        />
+        <img
+          src="assets/images/main_ship.png"
+          alt="Main Ship"
+          class="main__ship wow animate__fadeInRight"
+        />
+      </section>
+      <section class="about" id="about">
+        <div class="container">
+          <h2 class="about__title wow animate__backInLeft">О круизе</h2>
+
+          <div class="about__content">
+            <div class="about__text wow animate__backInLeft">
+              <p class="about__description-first">
+                Круиз по карибским островам на роскошном лайнере MSC Armonia
+                начинается 6 апреля 2025 г и длится 8 дней. Во время путешествия
+                вы побываете в различных странах. В Доминиканской Республике вы
+                будете исследовать исторические города, насладитесь прекрасными
+                пляжами и сможете погрузиться в местную культуру. В Багамах
+                открывается возможность окунуться в удивительный подводный мир,
+                а на островах Тёркс и Кайкос можно отдохнуть в уединении,
+                наслаждаясь идеальными бирюзовыми водами и спокойной атмосферой.
+              </p>
+
+              <p class="about__description-second">
+                Кроме того, на круизе предлагаются разнообразные активности,
+                включая шоу, дискотеки и тематические вечера. Гастрономический
+                опыт представлен на высшем уровне с разнообразными ресторанами и
+                кафе, предлагающими блюда местной и мировой кухни. Кроме того,
+                на борту доступны спа-услуги, тренажерные залы и другие удобства
+                для полноценного отдыха и релаксации.
+              </p>
+            </div>
+
+            <div class="about__photos wow animate__backInRight">
+              <div class="about__photo-big">
+                <img
+                  src="assets/images/about-photo1.png"
+                  alt="Карибский остров"
+                  class="about__photo1"
+                />
+              </div>
+
+              <div class="about__photo-small">
+                <img
+                  src="assets/images/about-photo2.png"
+                  alt="Круизный лайнер"
+                  class="about__photo2"
+                />
+                <img
+                  src="assets/images/about-photo3.png"
+                  alt="Круизный лайнер в море"
+                  class="about__photo3"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="route">
+        <div class="container">
+          <h2 class="route__title wow animate__backInUp">
+            Наш уникальный маршрут
+          </h2>
+          <picture>
+            <source media="(max-width: 768px)" srcset="assets/images/map_mobile.svg" />
+            <img
+              src="assets/images/route-map.svg"
+              alt="Маршрут круиза: Форт-Лодердейл, Принцесс Кейс, Амбер Ков, острова Тёркс и Кайкос и обратно"
+              class="route__map wow animate__bounceInRight"
+            />
+          </picture>
+        </div>
+        <div class="swiper mySwiper wow animate__backInRight">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <h2 class="slide__title">ДЕНЬ 1</h2>
+              <p class="slide__place">Форт-Лодердейл, Флорида</p>
+              <div class="slide__info">
+                <div class="slide-img-block">
+                  <img src="assets/images/place1.jpg" alt="Принцесс Кейс, Багамы" />
+                </div>
+                <div class="slide-description">
+                  <p>
+                    Наше путешествие начинается в солнечном Форт-Лодердейле —
+                    городе пальм, красивых каналов и роскошных яхт. Утром можно
+                    прогуляться вдоль набережной, насладиться морским бризом и
+                    отправиться на песчаный пляж, чтобы отдохнуть перед круизом.
+                  </p>
+                  <p>
+                    После прогулки заглянем в уютные кафе, попробуем блюда
+                    местной кухни и полюбуемся архитектурой города. Любители
+                    красивых видов смогут сделать фотографии на фоне яхт,
+                    тропической зелени и лазурной воды.
+                  </p>
+                  <p>
+                    Ближе к вечеру отправимся на круизный лайнер, познакомимся с
+                    кораблём и устроимся в каюте. Впереди нас ждут восемь дней
+                    приключений, белоснежные пляжи и незабываемые пейзажи
+                    Карибского моря.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <h2 class="slide__title">ДЕНЬ 2</h2>
+              <p class="slide__place">Принцесс Кейс, Багамы</p>
+              <div class="slide__info">
+                <div class="slide-img-block">
+                  <img src="assets/images/place2.png" alt="Принцесс Кейс, Багамы" />
+                </div>
+                <div class="slide-description">
+                  <p>
+                    Утром корабль прибудет к частному острову Принцесс-Кейс, где
+                    вас ждет настоящий тропический рай. Начните день с прогулки
+                    вдоль белоснежного пляжа или купания в теплых бирюзовых
+                    водах. Для любителей активного отдыха доступны разнообразные
+                    водные развлечения: аренда каяков, катамаранов, паддлбордов
+                    и сноркелинг, чтобы насладиться подводным миром.
+                  </p>
+                  <p>
+                    К обеду на острове организуют барбекю на свежем воздухе —
+                    попробуйте сочные блюда на гриле, свежие салаты и освежающие
+                    тропические напитки. После обеда время расслабиться:
+                    отдыхайте на удобных лежаках под тенью пальм или насладитесь
+                    массажем прямо на пляже.
+                  </p>
+                  <p>
+                    Закончите день, наслаждаясь последними моментами у моря, а
+                    затем вернитесь на корабль. Вечером вас ждут ужин,
+                    развлечения и звуки океана, сопровождающие начало новой
+                    главы вашего круизного путешествия.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <h2 class="slide__title">День 3</h2>
+              <p class="slide__place">В море</p>
+              <div class="slide__info">
+                <div class="slide-img-block">
+                  <img src="assets/images/place3.png" alt="Принцесс Кейс, Багамы" />
+                </div>
+                <div class="slide-description">
+                  <p>
+                    Сегодня у нас день отдыха в открытом море, когда можно
+                    забыть о спешке и наслаждаться всеми возможностями круизного
+                    лайнера. Утро начнём с неспешного завтрака с видом на океан,
+                    а затем отправимся к бассейну или на солнечную палубу.
+                  </p>
+                  <p>
+                    В течение дня можно посетить спа-зону, заглянуть в
+                    рестораны, принять участие в развлечениях или просто
+                    устроиться в удобном кресле с книгой. Для любителей
+                    активности на борту могут быть доступны спортивные площадки,
+                    занятия и различные игры.
+                  </p>
+                  <p>
+                    Вечером насладимся ужином, живой музыкой или шоу на борту. А
+                    перед сном выйдем на палубу, чтобы полюбоваться бескрайним
+                    морем и звёздным небом — ведь впереди нас ждёт новое
+                    знакомство с Карибскими островами.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <h2 class="slide__title">День 4</h2>
+              <p class="slide__place">Амбер-Ков, Доминиканская Республика</p>
+              <div class="slide__info">
+                <div class="slide-img-block">
+                  <img src="assets/images/place4.jpeg" alt="Принцесс Кейс, Багамы" />
+                </div>
+                <div class="slide-description">
+                  <p>
+                    Сегодня мы прибываем в Амбер-Ков — живописный порт на
+                    северном побережье Доминиканской Республики. Здесь нас
+                    встречают тропическая зелень, горные пейзажи и яркая
+                    атмосфера Карибов. Утром можно прогуляться по портовой зоне,
+                    полюбоваться местными пейзажами и сделать фотографии на
+                    память.
+                  </p>
+                  <p>
+                    Для желающих провести день активно можно выбрать экскурсию к
+                    красивым пляжам, познакомиться с местной культурой или
+                    отправиться исследовать природные достопримечательности
+                    региона. Любителям спокойного отдыха подойдут бассейн,
+                    прогулки и дегустация местных блюд и свежих тропических
+                    фруктов.
+                  </p>
+                  <p>
+                    После насыщенного дня вернёмся на корабль, чтобы немного
+                    отдохнуть и подготовиться к следующему приключению. Вечером
+                    нас ждут ужин, развлечения и приятная атмосфера круиза, а за
+                    бортом постепенно будут исчезать огни доминиканского
+                    побережья.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <h2 class="slide__title">День 5</h2>
+              <p class="slide__place">Острова Тёркс и Кайкос</p>
+              <div class="slide__info">
+                <div class="slide-img-block">
+                  <img src="assets/images/place5.jpg" alt="Принцесс Кейс, Багамы" />
+                </div>
+                <div class="slide-description">
+                  <p>
+                    Утром нас встречают острова Тёркс и Кайкос, знаменитые
+                    своими белоснежными пляжами и невероятно прозрачной водой.
+                    Начнём день с отдыха у моря: искупаемся, позагораем и
+                    прогуляемся вдоль побережья, наслаждаясь тропическими
+                    пейзажами.
+                  </p>
+                  <p>
+                    Для любителей приключений можно выбрать снорклинг или
+                    морскую прогулку, чтобы увидеть красоту подводного мира. На
+                    обед попробуем свежие морепродукты и освежающие тропические
+                    напитки, а после устроим спокойный отдых на пляже под шум
+                    волн.
+                  </p>
+                  <p>
+                    Во второй половине дня останется время для фотографий,
+                    сувениров и последних купаний в бирюзовом море. Затем
+                    вернёмся на лайнер, где можно будет отдохнуть, поужинать и
+                    поделиться впечатлениями об одном из самых красивых мест
+                    нашего путешествия.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <h2 class="slide__title">День 6</h2>
+              <p class="slide__place">В море</p>
+              <div class="slide__info">
+                <div class="slide-img-block">
+                  <img src="assets/images/place6.jpg" alt="Принцесс Кейс, Багамы" />
+                </div>
+                <div class="slide-description">
+                  <p>
+                    После нескольких насыщенных часов на островах сегодня можно
+                    полностью посвятить время себе. Утром насладимся завтраком с
+                    видом на океан, а затем отправимся к бассейну, позагораем на
+                    палубе или просто отдохнём в тени, слушая шум волн.
+                  </p>
+                  <p>
+                    В течение дня можно посетить спа-зону, попробовать новые
+                    блюда в ресторанах или принять участие в развлекательных
+                    мероприятиях на борту. Тем, кто предпочитает спокойствие,
+                    подойдёт неспешная прогулка по кораблю и время с любимой
+                    книгой на фоне морских пейзажей.
+                  </p>
+                  <p>
+                    Ближе к вечеру соберёмся на палубе, чтобы полюбоваться
+                    закатом над Карибским морем. После ужина можно посетить
+                    вечернее шоу, послушать музыку или провести время в уютной
+                    обстановке, наслаждаясь каждым моментом путешествия.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <h2 class="slide__title">День 7</h2>
+              <p class="slide__place">В море</p>
+              <div class="slide__info">
+                <div class="slide-img-block">
+                  <img src="assets/images/place7.jpg" alt="Принцесс Кейс, Багамы" />
+                </div>
+                <div class="slide-description">
+                  <p>
+                    Сегодня последний полноценный день нашего круиза, поэтому
+                    постараемся насладиться им по максимуму. Утром можно
+                    неспешно позавтракать, искупаться в бассейне и ещё раз
+                    полюбоваться бескрайним океаном с верхней палубы.
+                  </p>
+                  <p>
+                    Днём займёмся тем, на что раньше не хватало времени: посетим
+                    любимые места на лайнере, заглянем в магазины, сделаем
+                    фотографии или попробуем новые развлечения. Это также
+                    отличный момент, чтобы собрать сувениры и вспомнить самые
+                    яркие впечатления от посещённых островов.
+                  </p>
+                  <p>
+                    Вечером нас ждёт прощальный ужин и заключительный вечер на
+                    борту. Под музыку, огни корабля и шум океана будем
+                    наслаждаться последними часами круиза, ведь уже завтра мы
+                    вернёмся во Флориду с множеством красивых воспоминаний.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <h2 class="slide__title">День 8</h2>
+              <p class="slide__place">Форт-Лодердейл, Флорида</p>
+              <div class="slide__info">
+                <div class="slide-img-block">
+                  <img src="assets/images/place8.jpg" alt="Принцесс Кейс, Багамы" />
+                </div>
+                <div class="slide-description">
+                  <p>
+                    Утром наш лайнер возвращается в Форт-Лодердейл, завершая
+                    карибское путешествие. После завтрака и высадки можно
+                    немного прогуляться по городу, подышать свежим морским
+                    воздухом и ещё раз полюбоваться пальмами, каналами и яхтами.
+                  </p>
+                  <p>
+                    Если позволяет время до отъезда, заглянем в местное кафе,
+                    купим сувениры или отправимся на короткую прогулку вдоль
+                    пляжа. Это прекрасная возможность спокойно завершить
+                    поездку, сделать последние фотографии и насладиться
+                    атмосферой солнечной Флориды.
+                  </p>
+                  <p>
+                    Наше путешествие подходит к концу, но с нами останутся
+                    воспоминания о бирюзовом море, тропических островах,
+                    красивых закатах и днях, наполненных отдыхом. Впереди дорога
+                    домой, а впечатления от этого круиза ещё долго будут
+                    возвращать нас к тёплым Карибам.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-controls wow animate__backInLeft">
+          <div class="swiper-button-prev hvr-sweep-to-right">
+            <svg
+              width="9"
+              height="15"
+              viewBox="0 0 9 15"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M8.5 14.5L0.5 7.5L8.5 0.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke="white"
+              />
+            </svg>
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-next hvr-sweep-to-left">
+            <svg
+              width="9"
+              height="15"
+              viewBox="0 0 9 15"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0.5 14.5L8.5 7.5L0.5 0.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke="white"
+              />
+            </svg>
+          </div>
+        </div>
+      </section>
+      <section class="liner">
+        <div class="container wow animate__backInLeft">
+          <h2 class="liner__title">Лайнер MSC Armonia</h2>
+
+          <div class="liner__top">
+            <p class="liner__text">
+              MSC Armonia — это стильный лайнер, вмещающий до 2679 пассажиров.
+              На борту предлагается широкий выбор кают, включая люксы с
+              балконами и удобные семейные каюты. Рестораны предлагают
+              разнообразные кулинарные изыски, включая блюда различных кухонь
+              мира, а также тематические вечера и гастрономические события. На
+              лайнере также размещены множество баров и лаунджей для отдыха и
+              общения. Для развлечения на борту есть театр, казино, дискотеки и
+              разнообразные шоу. Бассейны и спа-центр позволяют пассажирам
+              расслабиться и насладиться полноценным отдыхом.
+            </p>
+            <a href="assets/images/liner-cabin.png" class="liner__link">
+              <img
+                src="assets/images/liner-cabin.png"
+                alt="Каюта с балконом"
+                class="liner__img"
+              />
+            </a>
+            <a href="assets/images/liner-deck.png" class="liner__link">
+              <img
+                src="assets/images/liner-deck.png"
+                alt="Бассейн на палубе"
+                class="liner__img"
+              />
+            </a>
+          </div>
+
+          <ul class="liner__stats">
+            <li class="liner__stat">
+              <span class="liner__stat-number">3000</span>
+              <span class="liner__stat-label">пассажиров</span>
+            </li>
+            <li class="liner__stat">
+              <span class="liner__stat-number">976</span>
+              <span class="liner__stat-label">кают</span>
+            </li>
+            <li class="liner__stat">
+              <span class="liner__stat-number">13</span>
+              <span class="liner__stat-label">палуб</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="gallery" id="gallery">
+        <div class="container wow animate__backInRight">
+          <h2 class="gallery__title">фотогалерея</h2>
+
+          <div class="swiper gallerySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="assets/images/gallery-1.png" class="gallery__link">
+                  <img src="assets/images/gallery-1.png" alt="Пляж с пальмами" />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="assets/images/gallery-2.png" class="gallery__link">
+                  <img src="assets/images/gallery-2.png" alt="Лайнер с высоты" />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="assets/images/gallery-3.png" class="gallery__link">
+                  <img src="assets/images/gallery-3.png" alt="Палуба лайнера" />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="assets/images/gallery-4.png" class="gallery__link">
+                  <img src="assets/images/gallery-4.png" alt="" />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="assets/images/gallery-5.png" class="gallery__link">
+                  <img src="assets/images/gallery-5.png" alt="" />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="assets/images/gallery-6.png" class="gallery__link">
+                  <img src="assets/images/gallery-6.png" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery__controls">
+            <button
+              class="gallery__btn gallery__btn--prev hvr-sweep-to-right"
+              type="button"
+              aria-label="Назад"
+            >
+              <svg
+                width="9"
+                height="15"
+                viewBox="0 0 9 15"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8.5 14.5L0.5 7.5L8.5 0.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke="white"
+                />
+              </svg>
+            </button>
+            <div class="gallery__pagination"></div>
+            <button
+              class="gallery__btn gallery__btn--next hvr-sweep-to-left"
+              type="button"
+              aria-label="Вперёд"
+            >
+              <svg
+                width="9"
+                height="15"
+                viewBox="0 0 9 15"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8.5 14.5L0.5 7.5L8.5 0.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke="white"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="reviews" id="reviews">
+        <div class="container wow animate__backInLeft">
+          <h2 class="reviews__title">Отзывы о круизе «В сердце Карибов»</h2>
+
+          <div class="swiper reviewsSwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide review">
+                <div class="review__head">
+                  <img
+                    src="assets/images/review-1.png"
+                    alt="Анна и Дмитрий"
+                    class="review__avatar"
+                  />
+                  <div>
+                    <p class="review__name">Анна и Дмитрий</p>
+                    <div
+                      class="review__stars"
+                      role="img"
+                      aria-label="Оценка 5 из 5"
+                    >
+                      <img src="assets/images/star.svg" alt="" />
+                      <img src="assets/images/star.svg" alt="" />
+                      <img src="assets/images/star.svg" alt="" />
+                      <img src="assets/images/star.svg" alt="" />
+                      <img src="assets/images/star.svg" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <img src="assets/images/quote.svg" alt="" class="review__quote" />
+                <p class="review__text">
+                  Круиз превзошел все наши ожидания. Каждый день был наполнен
+                  новыми открытиями: от кристально чистой воды и уединенных
+                  пляжей до богатой культуры и ярких пейзажей.
+                </p>
+              </div>
+
+              <div class="swiper-slide review">
+                <div class="review__head">
+                  <img
+                    src="assets/images/review-2.png"
+                    alt="Екатерина"
+                    class="review__avatar"
+                  />
+                  <div>
+                    <p class="review__name">Екатерина</p>
+                    <div
+                      class="review__stars"
+                      role="img"
+                      aria-label="Оценка 5 из 5"
+                    >
+                      <img src="assets/images/star.svg" alt="" />
+                      <img src="assets/images/star.svg" alt="" />
+                      <img src="assets/images/star.svg" alt="" />
+                      <img src="assets/images/star.svg" alt="" />
+                      <img src="assets/images/star.svg" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <img src="assets/images/quote.svg" alt="" class="review__quote" />
+                <p class="review__text">
+                  Я всегда мечтала увидеть Карибы, и круиз стал идеальным
+                  способом воплотить эту мечту. Сам лайнер — это плавучий
+                  пятизвёздочный курорт с отличным сервисом, ресторанами и
+                  развлечениями. Маршрут был продуман до мелочей: Багамы,
+                  Доминикана, Тёркс и Кайкос — все места уникальны и невероятно
+                  красивые.
+                </p>
+              </div>
+
+              <div class="swiper-slide review">
+                <div class="review__head">
+                  <img
+                    src="assets/images/review-3.png"
+                    alt="Алексей"
+                    class="review__avatar"
+                  />
+                  <div>
+                    <p class="review__name">Алексей</p>
+                    <div
+                      class="review__stars"
+                      role="img"
+                      aria-label="Оценка 4 из 5"
+                    >
+                      <img src="assets/images/star.svg" alt="" />
+                      <img src="assets/images/star.svg" alt="" />
+                      <img src="assets/images/star.svg" alt="" />
+                      <img src="assets/images/star.svg" alt="" />
+                      <img src="assets/images/star-empty.svg" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <img src="assets/images/quote.svg" alt="" class="review__quote" />
+                <p class="review__text">
+                  Круиз подарил нам невероятное путешествие, которое мы будем
+                  вспоминать ещё долго. Каждый день на маршруте был по-своему
+                  особенным.
+                </p>
+              </div>
+              <div class="swiper-slide review">
+                <div class="review__head">
+                  <img
+                    src="assets/images/review-4.png"
+                    alt="Алексей"
+                    class="review__avatar"
+                  />
+                  <div>
+                    <p class="review__name">Андрей</p>
+
+                    <div
+                      class="review__stars"
+                      role="img"
+                      aria-label="Оценка 4 из 5"
+                    >
+                      <img src="assets/images/star.svg" alt="" />
+                      <img src="assets/images/star.svg" alt="" />
+                      <img src="assets/images/star.svg" alt="" />
+                      <img src="assets/images/star.svg" alt="" />
+                      <img src="assets/images/star-empty.svg" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <img src="assets/images/quote.svg" alt="" class="review__quote" />
+                <p class="review__text">
+                  Спокойный отдых и красивые закаты над океаном. Хотелось бы
+                  чуть больше времени на берегу.
+                </p>
+              </div>
+              <div class="swiper-slide review">
+                <div class="review__head">
+                  <img
+                    src="assets/images/review-5.png"
+                    alt="Алексей"
+                    class="review__avatar"
+                  />
+                  <div>
+                    <p class="review__name">Владимир</p>
+                    <div
+                      class="review__stars"
+                      role="img"
+                      aria-label="Оценка 5 из 5"
+                    >
+                      <img src="assets/images/star.svg" alt="" />
+                      <img src="assets/images/star.svg" alt="" />
+                      <img src="assets/images/star.svg" alt="" />
+                      <img src="assets/images/star.svg" alt="" />
+                      <img src="assets/images/star.svg" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <img src="assets/images/quote.svg" alt="" class="review__quote" />
+                <p class="review__text">
+                  Отличная организация, внимательный экипаж и вкусная кухня.
+                  Дети были в восторге от аквапарка на борту.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="reviews__controls">
+            <button
+              class="reviews__btn reviews__btn--prev hvr-sweep-to-right"
+              type="button"
+              aria-label="Назад"
+            >
+              <svg
+                width="9"
+                height="15"
+                viewBox="0 0 9 15"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8.5 14.5L0.5 7.5L8.5 0.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke="white"
+                />
+              </svg>
+            </button>
+            <div class="reviews__pagination"></div>
+            <button
+              class="reviews__btn reviews__btn--next hvr-sweep-to-left"
+              type="button"
+              aria-label="Вперёд"
+            >
+              <svg
+                width="9"
+                height="15"
+                viewBox="0 0 9 15"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8.5 14.5L0.5 7.5L8.5 0.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke="white"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="order" id="order">
+        <div class="container wow animate__backInRight">
+          <h2 class="order__title">забираемся на борт мечты!</h2>
+          <p class="order__subtitle">
+            Ближайшие даты круиза «В сердце Карибского моря»
+          </p>
+          <div class="order__buttons">
+            <button type="button" class="order__button hvr-sweep-to-right">
+              08.01.2025
+            </button>
+            <button type="button" class="order__button hvr-sweep-to-right">
+              06.04.2025
+            </button>
+            <button type="button" class="order__button hvr-sweep-to-left">
+              15.06.2025
+            </button>
+            <button type="button" class="order__button hvr-sweep-to-left">
+              17.09.2025
+            </button>
+          </div>
+          <p class="order__description">
+            Оставьте свой номер телефона, и наш менеджер поможет вам
+            забронировать тур
+          </p>
+          <form class="order__form">
+            <input
+              type="text"
+              id="name"
+              class="order__form-input inputs"
+              placeholder="Ваше имя"
+            />
+            <div class="error-input">Необходимо ввести ваше имя</div>
+            <input
+              type="tel"
+              id="phone"
+              class="order__form-input inputs"
+              placeholder="Номер телефона"
+            />
+            <div class="error-input">Необходимо ввести номер телефона</div>
+            <label class="order__agree">
+              <input
+                type="checkbox"
+                id="agree"
+                class="order__checkbox inputs"
+              />
+              <span class="checkbox__description"
+                >Я соглашаюсь с
+                <a href="#">политикой конфиденциальности</a></span
+              >
+            </label>
+            <div class="error-input">
+              Необходимо согласиться с политикой конфиденциальности
+            </div>
+            <button
+              type="submit"
+              class="submit-btn hvr-sweep-to-top"
+              id="submit"
+            >
+              Заказать звонок
+            </button>
+          </form>
+          <div class="order-success">
+            Спасибо за заявку, мы с вами свяжемся!
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer__container">
+        <a href="#" class="footer__logo">
+          <img
+            src="assets/images/logo-white.png"
+            alt="OCEAN VOYAGE"
+            class="header__logo-img"
+          />
+        </a>
+
+        <div class="footer__col" id="contacts">
+          <h3 class="footer__title">Контакты</h3>
+          <ul class="footer__contacts">
+            <li>
+              <img src="assets/images/phone.svg" alt="" />
+              <a class="footer__phone" href="tel:+77917615673"
+                >+7 791 761 56 56</a
+              >
+            </li>
+            <li>
+              <img src="assets/images/mail.svg" alt="" />
+              <a class="footer__mail" href="mailto:oceanvoyage@gmail.com"
+                >oceanvoyage@gmail.com</a
+              >
+            </li>
+            <li>
+              <img src="assets/images/location.svg" alt="" />
+              <span>Ахметова, 59</span>
+            </li>
+          </ul>
+        </div>
+
+        <nav class="footer__col">
+          <h3 class="footer__title">Меню</h3>
+          <ul class="footer__menu">
+            <li><a href="#">О круизе</a></li>
+            <li><a href="#">Отзывы</a></li>
+            <li><a href="#">Фотогалерея</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+          <ul class="footer__social">
+            <li>
+              <a href="#" aria-label="Instagram"
+                ><img src="assets/images/inst.svg" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href="#" aria-label="Facebook"
+                ><img src="assets/images/fb.svg" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href="#" aria-label="Telegram"
+                ><img src="assets/images/tg.svg" alt=""
+              /></a>
+            </li>
+          </ul>
+        </nav>
+
+        <p class="footer__copy">© 2025 Ocean Voyage<br />All rights reserved</p>
+      </div>
+    </footer>
+    <script src="scripts/jquery-3.7.1.min.js"></script>
+    <script src="scripts/jquery.inputmask.min.js"></script>
+    <script src="scripts/jquery.magnific-popup.min.js"></script>
+    <script src="scripts/swiper-bundle.min.js"></script>
+    <script src="scripts/wow.min.js"></script>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
