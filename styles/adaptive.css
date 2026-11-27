@@ -22,7 +22,6 @@
 }
 
 @media screen and (max-width: 1199px) {
-
   .header__nav {
     position: fixed;
     top: 0;
@@ -389,6 +388,10 @@
 }
 
 @media screen and (max-width: 767px) {
+  .header {
+    position: fixed;
+  }
+
   .burger figure {
     background: var(--primary);
   }
@@ -403,7 +406,7 @@
   }
 
   .main__content {
-    padding: 60px 0 60px 0;
+    padding: 120px 0 60px 0;
     margin: 0 auto;
     width: 335px;
   }
@@ -422,13 +425,13 @@
   }
 
   .main__sea {
-    top: 378px;
+    top: 398px;
     width: 100%;
     left: 0;
   }
 
   .main__ship {
-    top: 467px;
+    top: 487px;
     height: 287px;
     width: 335px;
   }
@@ -515,7 +518,6 @@
 
   .slide-img-block {
     width: 295px;
-   
   }
 
   .slide-img-block img {
@@ -715,9 +717,9 @@
   }
 
   .footer a,
-.footer span {
-  font-size: 12px;
-}
+  .footer span {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width: 368px) {
@@ -739,7 +741,7 @@
     width: 300px;
   }
 
-  .about{
+  .about {
     padding-left: 10px;
     padding-right: 10px;
   }
@@ -759,12 +761,10 @@
 
   .about__photo-small {
     gap: 10px;
-    
   }
-.about__photo-small img {
-  width: 145px;
-}
-
+  .about__photo-small img {
+    width: 145px;
+  }
 
   .route__map {
     max-width: 320px;
@@ -778,10 +778,10 @@
     gap: 1px;
   }
 
-.liner{
-  padding-left: 10px;
+  .liner {
+    padding-left: 10px;
     padding-right: 10px;
-}
+  }
 
   .liner__text {
     font-size: 12px;
@@ -791,32 +791,32 @@
     width: 300px;
   }
 
- .liner .container {
-  gap: 5px;
- }
- .swiper-controls{
-  gap: 1px;
- }
+  .liner .container {
+    gap: 5px;
+  }
+  .swiper-controls {
+    gap: 1px;
+  }
 
-.gallery__controls{
-  gap: 1px;
-}
+  .gallery__controls {
+    gap: 1px;
+  }
 
- .gallery .gallery__controls .gallery__pagination{
-  gap: 1px;
- }
+  .gallery .gallery__controls .gallery__pagination {
+    gap: 1px;
+  }
 
- .reviews .reviews__controls{
-  gap: 1px;
- }
- .reviews .reviews__controls .reviews__pagination {
-  gap: 1px;
- }
- .review__stars{
-  gap: 1px;
- }
- 
- .footer{
-  padding: 15px;
- }
+  .reviews .reviews__controls {
+    gap: 1px;
+  }
+  .reviews .reviews__controls .reviews__pagination {
+    gap: 1px;
+  }
+  .review__stars {
+    gap: 1px;
+  }
+
+  .footer {
+    padding: 15px;
+  }
 }
